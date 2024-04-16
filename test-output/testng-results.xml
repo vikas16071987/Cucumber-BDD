@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-16T17:09:24 EDT" name="Suite" finished-at="2024-04-16T17:09:59 EDT" duration-ms="35095">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runcuke@5bf0d49]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-16T17:09:24 EDT" name="Test" finished-at="2024-04-16T17:09:59 EDT" duration-ms="35095">
+      <class name="runner.Runcuke">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.Runcuke@5bf0d49]" started-at="2024-04-16T17:09:24 EDT" name="setUpClass" finished-at="2024-04-16T17:09:25 EDT" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cf01c2e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runcuke@5bf0d49]" started-at="2024-04-16T17:09:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-16T17:09:35 EDT" duration-ms="10402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Finding New Car"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for New Car"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runcuke@5bf0d49]" started-at="2024-04-16T17:09:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-16T17:09:44 EDT" duration-ms="8966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Finding New Car"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for New Car"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runcuke@5bf0d49]" started-at="2024-04-16T17:09:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-16T17:09:50 EDT" duration-ms="6123" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Finding New Car"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for New Car"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at stepdefinations.CarwaleSteps.user_validates_car_title_as(CarwaleSteps.java:56)
+at ✽.user validates carTitle as "Kia Car"(file:///Users/vikashsharma/Documents/AutomationTesting/EclipseWorkspace/cucumberpageobjectmodelselenium/src/test/resources/features/findnewcar.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runcuke@5bf0d49]" started-at="2024-04-16T17:09:50 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-16T17:09:59 EDT" duration-ms="9128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Finding New Car"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for New Car"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.Runcuke@5bf0d49]" started-at="2024-04-16T17:09:59 EDT" name="tearDownClass" finished-at="2024-04-16T17:09:59 EDT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Runcuke -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
